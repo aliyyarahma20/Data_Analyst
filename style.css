@@ -1,0 +1,108 @@
+body {
+	background-image: url('data-analyst.jpg');
+ 	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.garis-besar{
+    background-image: url('1.png');
+}
+
+.soft-and-hard{
+    background-image: url('3.png');
+}
+
+.tools-and-tech{
+    background-image: url('2.png')
+}
+
+.gaji{
+    background-image: url(5.png);
+}
+
+.karier{
+    background-image: url(4.png);
+}
+
+footer {
+    background: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.content{
+    color: #FFFF;
+    text-shadow: 5px 5px 5px black;
+}
+
+.anggota{
+    max-width: 800px; 
+    margin: 2em auto;
+    
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #323232; */
+}
+
+header{
+    text-align: center; 
+    text-align: center; 
+    margin-top:250px;
+}
+
+nav {
+    text-align: center;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+ }
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background:#00d0ff;
+}
+
+nav ul li:hover a{
+     color:#000;
+}
+
+nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+}
+
+.sticky {
+    position: -webkit-sticky; /* Untuk Safari */
+    position: sticky;
+    top: 0; /* Navbar akan tetap di bagian atas layar */
+    padding: 10px 0; /* Atur padding sesuai kebutuhan */
+}
+
+.sticky ul {
+    list-style-type: none; /* Hapus bullets pada daftar */
+    margin: 0;
+    padding: 0;
+}
+
+.sticky ul li {
+    display: inline;
+    margin-right: 20px; /* Atur margin antara setiap item navbar */
+}
+
+.sticky ul li:last-child {
+    margin-right: 0; /* Hapus margin kanan pada item navbar terakhir */
+}
+
+.sticky ul li a {
+    color: white; /* Atur warna teks tautan navbar */
+    text-decoration: none; /* Hapus dekorasi tautan */
+}
